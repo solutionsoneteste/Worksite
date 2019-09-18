@@ -21,7 +21,7 @@ public class Login {
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
-			driver.manage().window().setSize(new Dimension(1200,765));
+			driver.manage().window().setSize(new Dimension(1200,766));
 			driver.get("https://sitebeta.s1platform.com/buy");
 			dsl = new DSL(driver);
 	}
