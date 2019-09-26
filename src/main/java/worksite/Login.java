@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Login {
 	
-	private WebDriver driver;
+	public WebDriver driver;
 	private DSL dsl;
 
 	@Before

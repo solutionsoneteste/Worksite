@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DSL {
 
-	
+
 	private WebDriver driver;
 	public DSL dsl;
 	
@@ -27,7 +27,6 @@ public class DSL {
 		driver.findElement(By.xpath(xpath)).sendKeys(text);
 		
 	}
-	
 	
 /********* TextField e TextArea ************/
 	
@@ -47,7 +46,6 @@ public class DSL {
 	public boolean isCheckMarcado(String id){
 		return driver.findElement(By.id(id)).isSelected();
 	}
-	
 	
 	
 	/********* Botao ************/
